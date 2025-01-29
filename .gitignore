@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*%
+
+.DS_Store
+
+storybook-static/
+
+.nx/cache
+.nx/workspace-data
