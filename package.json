@@ -51,7 +51,7 @@
   "scripts": {
     "storybook": "nx serve:storybook -p 6006",
     "build-storybook": "nx build:storybook",
-    "build": "tsc -p ./tsconfig.build.json && vite build"
+    "build": "nx exec -- tsc -p ./tsconfig.build.json && vite build"
   },
   "nx": {}
 }
