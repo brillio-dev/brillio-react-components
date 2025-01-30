@@ -8,6 +8,7 @@ const meta: Meta<typeof DateRangePicker> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "DateRangePicker",
 };
 
 export default meta;

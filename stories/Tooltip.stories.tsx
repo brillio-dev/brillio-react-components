@@ -9,6 +9,7 @@ const meta: Meta<typeof Tooltip> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Tooltip",
 };
 
 export default meta;

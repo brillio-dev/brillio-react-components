@@ -8,6 +8,7 @@ const meta: Meta<typeof ColorField> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ColorField",
 };
 
 export default meta;

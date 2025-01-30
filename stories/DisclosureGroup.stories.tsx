@@ -14,6 +14,7 @@ const meta: Meta<typeof DisclosureGroup> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "DisclosureGroup",
 };
 
 export default meta;

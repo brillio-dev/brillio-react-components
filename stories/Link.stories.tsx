@@ -8,6 +8,7 @@ const meta: Meta<typeof Link> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Link",
 };
 
 export default meta;

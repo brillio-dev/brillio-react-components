@@ -9,6 +9,7 @@ const meta: Meta<typeof Table> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Table",
 };
 
 export default meta;

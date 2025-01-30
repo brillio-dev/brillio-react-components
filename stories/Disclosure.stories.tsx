@@ -8,6 +8,7 @@ const meta: Meta<typeof Disclosure> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Disclosure",
 };
 
 export default meta;

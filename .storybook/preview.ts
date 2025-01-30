@@ -1,17 +1,20 @@
 import { themes } from "@storybook/theming";
+import { fn } from "@storybook/test";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: {},
     controls: {
       matchers: {
         color: /(background|color)$/i,
       },
     },
     docs: {
-      theme: window.matchMedia('(prefers-color-scheme: dark)').matches ? themes.dark : themes.light
-    }
+      theme: window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? themes.dark
+        : themes.light,
+    },
   },
 };
 

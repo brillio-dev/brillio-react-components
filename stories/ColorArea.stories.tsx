@@ -8,6 +8,7 @@ const meta: Meta<typeof ColorArea> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ColorArea",
 };
 
 export default meta;

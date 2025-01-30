@@ -8,6 +8,7 @@ const meta: Meta<typeof Calendar> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Calendar",
 };
 
 export default meta;

@@ -8,6 +8,7 @@ const meta: Meta<typeof ProgressBar> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ProgressBar",
 };
 
 export default meta;

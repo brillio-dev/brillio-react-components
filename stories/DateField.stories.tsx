@@ -8,6 +8,7 @@ const meta: Meta<typeof DateField> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "DateField",
 };
 
 export default meta;

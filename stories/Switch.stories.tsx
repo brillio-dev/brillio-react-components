@@ -8,6 +8,7 @@ const meta: Meta<typeof Switch> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Switch",
 };
 
 export default meta;

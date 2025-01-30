@@ -8,6 +8,7 @@ const meta: Meta<typeof SearchField> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "SearchField",
 };
 
 export default meta;
