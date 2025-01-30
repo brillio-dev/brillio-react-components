@@ -8,6 +8,7 @@ const meta: Meta<typeof TagGroup> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "TagGroup",
 };
 
 export default meta;

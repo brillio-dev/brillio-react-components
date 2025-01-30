@@ -11,6 +11,7 @@ const meta: Meta<typeof ColorSwatchPicker> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ColorSwatchPicker",
 };
 
 export default meta;

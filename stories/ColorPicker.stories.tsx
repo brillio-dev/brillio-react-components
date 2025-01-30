@@ -8,6 +8,7 @@ const meta: Meta<typeof ColorPicker> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ColorPicker",
 };
 
 export default meta;

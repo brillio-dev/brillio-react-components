@@ -15,6 +15,7 @@ const meta: Meta<typeof Toolbar> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Toolbar",
 };
 
 export default meta;

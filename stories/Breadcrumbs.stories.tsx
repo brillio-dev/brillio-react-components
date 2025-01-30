@@ -9,6 +9,7 @@ const meta: Meta<typeof Breadcrumbs> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Breadcrumbs",
 };
 
 export default meta;

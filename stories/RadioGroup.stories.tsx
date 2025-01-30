@@ -9,6 +9,7 @@ const meta: Meta<typeof RadioGroup> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "RadioGroup",
 };
 
 export default meta;

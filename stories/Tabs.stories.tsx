@@ -9,6 +9,7 @@ const meta: Meta<typeof Tabs> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Tabs",
 };
 
 export default meta;

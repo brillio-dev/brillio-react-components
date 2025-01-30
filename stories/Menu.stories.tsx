@@ -9,6 +9,7 @@ const meta: Meta<typeof Menu> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Menu",
 };
 
 export default meta;

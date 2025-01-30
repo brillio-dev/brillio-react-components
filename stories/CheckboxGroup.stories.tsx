@@ -9,6 +9,7 @@ const meta: Meta<typeof CheckboxGroup> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "CheckboxGroup",
 };
 
 export default meta;

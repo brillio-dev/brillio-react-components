@@ -8,6 +8,7 @@ const meta: Meta<typeof TimeField> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "TimeField",
 };
 
 export default meta;

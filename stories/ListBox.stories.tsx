@@ -8,6 +8,7 @@ const meta: Meta<typeof ListBox> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ListBox",
 };
 
 export default meta;

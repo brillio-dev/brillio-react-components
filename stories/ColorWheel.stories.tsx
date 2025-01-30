@@ -8,6 +8,7 @@ const meta: Meta<typeof ColorWheel> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "ColorWheel",
 };
 
 export default meta;

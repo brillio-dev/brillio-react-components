@@ -8,6 +8,7 @@ const meta: Meta<typeof Button> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Button",
 };
 
 export default meta;

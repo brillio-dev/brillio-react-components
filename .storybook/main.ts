@@ -25,10 +25,9 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    "@chromatic-com/storybook"
   ],
-  docs: {
-    autodocs: "tag",
-  },
+  docs: {},
   typescript: {
     reactDocgen: "react-docgen-typescript",
     reactDocgenTypescriptOptions: {

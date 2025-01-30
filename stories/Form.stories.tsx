@@ -15,6 +15,7 @@ const meta: Meta<typeof Form> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "Form",
 };
 
 export default meta;

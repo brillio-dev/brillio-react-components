@@ -8,6 +8,7 @@ const meta: Meta<typeof GridList> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  title: "GridList",
 };
 
 export default meta;
