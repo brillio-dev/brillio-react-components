@@ -2,7 +2,10 @@
   "name": "brillio-react-components",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
   ],
   "main": "./dist/brillio-react-components.umd.cjs",
   "module": "./dist/brillio-react-components.js",
