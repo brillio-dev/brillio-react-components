@@ -1,9 +1,6 @@
 Brillio React Components
 Copyright 2025 Brillio LLC.
 
-This product includes software developed at
-Brillio LLC (http://www.brillio.com/).
-
-The Initial Developer of the Storybook stories within stories/ directory
-is Adobe Systems Incorporated (http://www.adobe.com/).
-Copyright 2019 Adobe Systems Incorporated. All Rights Reserved.
+This product includes software developed at Brillio LLC (http://www.brillio.com/),
+using the Storybook Starter kit developed by Adobe Systems Incorporated (http://www.adobe.com/)
+under Apache License. Copyright 2019 Adobe Systems Incorporated. All Rights Reserved.

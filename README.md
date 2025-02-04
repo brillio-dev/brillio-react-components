@@ -15,3 +15,7 @@ npx nx storybook
 npx nx build
 npx nx build-storybook
 ```
+
+## Architecture
+
+![Architecture](brillio-components-library.png)
