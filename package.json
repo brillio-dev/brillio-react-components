@@ -1,6 +1,6 @@
 {
   "name": "@brillio/react-components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reusable React Components for building Design Systems",
   "homepage": "https://github.com/brillio-dev/brillio-react-components",
   "author": "Yuvaraj Thiagarajan (https://github.com/yuvaraj-thiagarajan)",
