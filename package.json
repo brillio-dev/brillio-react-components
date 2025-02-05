@@ -12,14 +12,11 @@
     "NOTICE",
     "README.md"
   ],
-  "main": "./dist/brillio-react-components.umd.cjs",
-  "module": "./dist/brillio-react-components.js",
+  "types": "./dist/main.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/brillio-react-components.js",
-      "require": "./dist/brillio-react-components.umd.cjs"
-    },
-    "./style.css": "./dist/brillio-react-components.css"
+      "import": "./dist/main.js"
+    }
   },
   "devDependencies": {
     "@babel/preset-react": "^7.26.3",
