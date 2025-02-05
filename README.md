@@ -1,19 +1,9 @@
-# Brillio React Components
+# Usage instructions for Brillio React Components
 
-Welcome to Brillio React Components!
-
-To get started, run the following commands:
+To get started, run the following commands from your React application and import individual components independently.:
 
 ```shell
-npm install
-npx nx storybook
-```
-
-## Building for Production
-
-```shell
-npx nx build
-npx nx build-storybook
+npm install --save @brillio-dev/react-components
 ```
 
 ## Architecture
