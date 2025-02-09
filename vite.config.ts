@@ -5,13 +5,14 @@ import dts from "vite-plugin-dts";
 import react from "@vitejs/plugin-react";
 import { libInjectCss } from "vite-plugin-lib-inject-css";
 import { glob } from "glob";
+import styleX from "vite-plugin-stylex";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, "src/main.ts"),
+      entry: resolve(__dirname, "src/main.tsx"),
       name: "BrillioReactComponents",
       formats: ["es"],
       // the proper extensions will be added
@@ -27,7 +28,7 @@ export default defineConfig({
           .map((file) => [
             relative("src", file.slice(0, file.length - extname(file).length)),
             fileURLToPath(new URL(file, import.meta.url)),
-          ])
+          ]),
       ),
       output: {
         assetFileNames: "assets/[name][extname]",
@@ -43,5 +44,6 @@ export default defineConfig({
     react(),
     libInjectCss(),
     dts({ tsconfigPath: "./tsconfig.build.json" }),
+    styleX(),
   ],
 });

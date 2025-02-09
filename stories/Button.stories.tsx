@@ -16,5 +16,6 @@ export default meta;
 export const Example = (args: any) => <Button {...args}>Press me</Button>;
 
 Example.args = {
+  size: "medium",
   onPress: () => alert("Hello world!"),
 };

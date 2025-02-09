@@ -1,6 +1,56 @@
-import {Button as RACButton, ButtonProps} from 'react-aria-components';
-import './Button.css';
+import { Button as RACButton, ButtonProps } from "react-aria-components";
+import "./Button.css";
+import * as stylex from "@stylexjs/stylex";
 
-export function Button(props: ButtonProps) {
-  return <RACButton {...props} />;
+const styles = stylex.create({
+  base: {
+    appearance: "none",
+    borderWidth: 0,
+    borderRadius: "5px",
+  },
+});
+
+const colorVariants = stylex.create({
+  danger: {
+    backgroundColor: {
+      default: "darkred",
+      ":hover": "red",
+    },
+    color: "white",
+  },
+  safe: {
+    backgroundColor: {
+      default: "darkgreen",
+      ":hover": "green",
+    },
+    color: "white",
+  },
+});
+
+const sizeVariants = stylex.create({
+  small: {
+    fontSize: "1rem",
+    paddingBlock: 4,
+    paddingInline: 8,
+  },
+  medium: {
+    fontSize: "1.25rem",
+    paddingBlock: 8,
+    paddingInline: 16,
+  },
+});
+
+type Props = {
+  color: keyof typeof colorVariants;
+  size: keyof typeof sizeVariants;
+  props: ButtonProps;
+};
+
+export function Button({ color = "danger", size = "small", ...props }: Props) {
+  return (
+    <RACButton
+      {...props}
+      {...stylex.props(styles.base, colorVariants[color], sizeVariants[size])}
+    />
+  );
 }

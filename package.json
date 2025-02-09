@@ -20,19 +20,21 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.26.3",
-    "@chromatic-com/storybook": "^3.2.4",
-    "@nx/js": "20.4.0",
-    "@nx/storybook": "20.4.0",
-    "@nx/vite": "20.4.0",
-    "@nx/web": "20.4.0",
+    "@nx/js": "20.4.2",
+    "@nx/storybook": "20.4.2",
+    "@nx/vite": "20.4.2",
+    "@nx/web": "20.4.2",
+    "@storybook/addon-a11y": "^8.5.3",
     "@storybook/addon-essentials": "^8.5.3",
     "@storybook/addon-interactions": "^8.5.3",
     "@storybook/addon-links": "^8.5.3",
     "@storybook/addon-onboarding": "^8.5.3",
+    "@storybook/addon-storysource": "^8.5.3",
     "@storybook/blocks": "^8.5.3",
     "@storybook/react": "^8.5.3",
     "@storybook/react-vite": "^8.5.3",
     "@storybook/test": "^8.5.3",
+    "@storybook/test-runner": "^0.21.0",
     "@storybook/theming": "^8.5.3",
     "@swc-node/register": "^1.10.9",
     "@swc/core": "^1.10.14",
@@ -42,7 +44,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "@vitest/ui": "^2.1.9",
     "glob": "^11.0.1",
-    "nx": "20.4.0",
+    "nx": "20.4.2",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-aria-components": "latest",
@@ -53,6 +55,7 @@
     "vite": "^5.4.14",
     "vite-plugin-dts": "^4.5.0",
     "vite-plugin-lib-inject-css": "^2.2.1",
+    "vite-plugin-stylex": "^0.13.0",
     "vitest": "^2.1.9"
   },
   "engines": {
@@ -66,6 +69,7 @@
   "scripts": {
     "storybook": "nx serve:storybook -p 6006",
     "build-storybook": "nx build:storybook",
+    "test-storybook": "test-storybook",
     "build": "nx exec -- tsc -p ./tsconfig.build.json && vite build"
   },
   "nx": {}

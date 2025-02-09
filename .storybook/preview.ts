@@ -1,5 +1,6 @@
 import { themes } from "@storybook/theming";
 import { fn } from "@storybook/test";
+import "../src/stylex.css";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

@@ -1,3 +1,4 @@
+import "./stylex.css";
 export { Breadcrumbs } from "./Breadcrumbs/Breadcrumbs";
 export { Button } from "./Button/Button";
 export { Calendar } from "./Calendar/Calendar";
