@@ -23,16 +23,13 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
     "@storybook/addon-a11y",
     "@storybook/addon-themes",
     "@storybook/addon-designs",
-    "@storybook/addon-measure",
-    "@storybook/addon-outline",
     "@etchteam/storybook-addon-status",
-    "@whitespace/storybook-addon-html",
+    "@whitespace/storybook-addon-html"
   ],
   docs: {},
   typescript: {

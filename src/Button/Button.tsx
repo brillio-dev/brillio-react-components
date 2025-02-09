@@ -1,6 +1,7 @@
 import { Button as RACButton, ButtonProps } from "react-aria-components";
 import "./Button.css";
 import * as stylex from "@stylexjs/stylex";
+import type { StaticStyles } from "@stylexjs/stylex";
 
 const styles = stylex.create({
   base: {
@@ -43,14 +44,23 @@ const sizeVariants = stylex.create({
 type Props = {
   color: keyof typeof colorVariants;
   size: keyof typeof sizeVariants;
+  style?: StaticStyles<{
+    color?: string;
+    backgroundColor?: "red" | "blue" | "green";
+  }>;
   props: ButtonProps;
 };
 
-export function Button({ color = "danger", size = "small", ...props }: Props) {
+export function Button({ color = "safe", size = "small", ...props }: Props) {
   return (
     <RACButton
       {...props}
-      {...stylex.props(styles.base, colorVariants[color], sizeVariants[size])}
+      {...stylex.props(
+        styles.base,
+        colorVariants[color],
+        sizeVariants[size],
+        props.style,
+      )}
     />
   );
 }

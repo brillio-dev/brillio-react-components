@@ -16,6 +16,16 @@ const preview = {
         ? themes.dark
         : themes.light,
     },
+    status: {
+      statuses: {
+        locked: {
+          background: "#ff0000",
+          color: "#ffffff",
+          description:
+            "Some of the styles on this component is locked and cannot be overriden for consistent look and feel",
+        },
+      },
+    },
   },
 };
 
