@@ -27,6 +27,12 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
     "@storybook/addon-a11y",
+    "@storybook/addon-themes",
+    "@storybook/addon-designs",
+    "@storybook/addon-measure",
+    "@storybook/addon-outline",
+    "@etchteam/storybook-addon-status",
+    "@whitespace/storybook-addon-html",
   ],
   docs: {},
   typescript: {
