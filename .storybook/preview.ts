@@ -1,5 +1,8 @@
+import { initialize, mswLoader } from "msw-storybook-addon";
 import { themes } from "@storybook/theming";
-import { fn } from "@storybook/test";
+
+// Initialize MSW
+initialize({ onUnhandledRequest: "bypass" });
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
@@ -16,6 +19,7 @@ const preview = {
         : themes.light,
     },
   },
+  loaders: [mswLoader],
 };
 
 export default preview;

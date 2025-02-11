@@ -20,6 +20,7 @@ const config: StorybookConfig = {
   framework: "@storybook/react-vite",
   stories: ["../stories/*.stories.@(js|jsx|mjs|ts|tsx)"],
   // Optional
+  staticDirs: ['../public'],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
