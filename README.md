@@ -9,3 +9,16 @@ npm install --save @brillio-dev/react-components
 ## Architecture
 
 ![Architecture](brillio-components-library.png)
+
+# Tech Stack
+
+- React Aria
+- Storybook
+- Nx
+- Vite
+
+# Why React Aria
+
+- Accessibility
+- Internationalization
+- Advanced Customization
